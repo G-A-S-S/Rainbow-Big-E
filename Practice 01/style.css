@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation: rainbowAnimation 10s infinite linear;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background-color: violet;
+    }
+    16.66% {
+        background-color: indigo;
+    }
+    33.33% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    66.66% {
+        background-color: yellow;
+    }
+    83.33% {
+        background-color: orange;
+    }
+    100% {
+        background-color: red;
+    }
+}
